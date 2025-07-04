@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 def download_stock_data(symbol, period="1y", interval="1d"):
     data = yf.download(symbol, period=period, interval=interval)
     if data.empty:
-        raise ValueError("No stock data found. Check ticker symbol or interval.")
+        raise ValueError("No stock data found. Check ticker symbol or intervall.")
     data = data[['Close']]
     return data
 
