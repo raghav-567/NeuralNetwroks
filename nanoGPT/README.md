@@ -7,7 +7,7 @@ A lightweight, from-scratch character-level Transformer model implemented in PyT
 ## 🔧 Features
 
 - Character-level tokenizer
-- Configurable Transformer with:
+- Configurable Transformer with:s
   - Multi-head self-attention
   - Position-wise feedforward layers
   - Dropout regularization
@@ -30,43 +30,43 @@ Use `models/small_config.py` to train and test easily. The large model is curren
 
 ## HyperParameters 
 
-- for state level output(~ 9 million params)
-max_iterations = 5000
-batch_size = 64
-learning_rate = 3e-4
-block_size = 256
-n_embd = 384
-eval_iters = 200
-eval_interval = 500
-dropout = 0.2
-no_of_head = 6
+# for state level output(~ 9 million params)
+- max_iterations = 5000
+- batch_size = 64
+- learning_rate = 3e-4
+- block_size = 256
+- n_embd = 384
+- eval_iters = 200
+- eval_interval = 500
+- dropout = 0.2
+- no_of_head = 6
 
-- for running(~1 million params)
-max_iterations = 5000
-batch_size = 64
-learning_rate = 3e-4
-block_size = 64
-n_embd = 126
-eval_iters = 200
-eval_interval = 500
-dropout = 0.2
-no_of_head = 6
+# for running(~1 million params)
+- max_iterations = 5000
+- batch_size = 64
+- learning_rate = 3e-4
+- block_size = 64
+- n_embd = 126
+- eval_iters = 200
+- eval_interval = 500
+- dropout = 0.2
+- no_of_head = 6
 
 
 
 ## Sample output 
 
-step 0: train loss 4.3771, val loss 4.3727
-step 500: train loss 2.3067, val loss 2.3222
-step 1000: train loss 2.0418, val loss 2.0874
-step 1500: train loss 1.8874, val loss 1.9742
-step 2000: train loss 1.7825, val loss 1.9081
-step 2500: train loss 1.7037, val loss 1.8452
-step 3000: train loss 1.6513, val loss 1.8091
-step 3500: train loss 1.6120, val loss 1.7799
-step 4000: train loss 1.5827, val loss 1.7455
-step 4500: train loss 1.5513, val loss 1.7210
-step 4999: train loss 1.5302, val loss 1.6983
+- step 0: train loss 4.3771, val loss 4.3727
+- step 500: train loss 2.3067, val loss 2.3222
+- step 1000: train loss 2.0418, val loss 2.0874
+- step 1500: train loss 1.8874, val loss 1.9742
+- step 2000: train loss 1.7825, val loss 1.9081
+- step 2500: train loss 1.7037, val loss 1.8452
+- step 3000: train loss 1.6513, val loss 1.8091
+- step 3500: train loss 1.6120, val loss 1.7799
+- step 4000: train loss 1.5827, val loss 1.7455
+- step 4500: train loss 1.5513, val loss 1.7210
+- step 4999: train loss 1.5302, val loss 1.6983
 
 ## Sample text generated 
 
