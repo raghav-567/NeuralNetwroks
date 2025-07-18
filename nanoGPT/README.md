@@ -30,7 +30,7 @@ Use `models/small_config.py` to train and test easily. The large model is curren
 
 ## HyperParameters 
 
-# for state level output(~ 9 million params)
+### for state level output(~ 9 million params)
 - max_iterations = 5000
 - batch_size = 64
 - learning_rate = 3e-4
@@ -41,7 +41,7 @@ Use `models/small_config.py` to train and test easily. The large model is curren
 - dropout = 0.2
 - no_of_head = 6
 
-# for running(~1 million params)
+### for running(~1 million params)
 - max_iterations = 5000
 - batch_size = 64
 - learning_rate = 3e-4
